@@ -77,8 +77,27 @@ Esse fluxo automatiza o gerenciamento dos produtos e reduz a necessidade de movi
 ---
 
 # Demonstração
+## Menu Principal
 
-*Em breve serão adicionadas capturas de tela da aplicação em funcionamento.*
+<img width="422" height="154" alt="pascal 1" src="https://github.com/user-attachments/assets/533ba3d5-4eaa-400a-95bb-4236530566e4" />
+
+---
+
+## Cadastro de Produtos
+
+<img width="418" height="254" alt="pascal 2" src="https://github.com/user-attachments/assets/27ed78ca-c7fd-45cd-9c4c-2ede9924284e" />
+
+---
+
+## Estoque
+
+<img width="379" height="292" alt="pascal 3" src="https://github.com/user-attachments/assets/b919e30a-b0e5-4318-ba8f-5bc7cde89e1c" />
+
+---
+
+## Lista de Compras
+
+<img width="425" height="299" alt="pascal 4" src="https://github.com/user-attachments/assets/67bea3d7-6f8e-4493-a510-b5fc5573fe42" />
 
 ---
 

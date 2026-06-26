@@ -8,7 +8,13 @@ O projeto foi desenvolvido em equipe como atividade acadêmica do curso de **An�
 
 # Objetivo
 
-Criar uma solução simples para auxiliar famílias na organização da despensa, permitindo o cadastro, controle e atualização de produtos, além do gerenciamento automático da lista de compras.
+Desenvolver uma solução simples para gerenciamento de produtos domésticos, permitindo:
+
+- Cadastro de produtos
+- Controle de estoque
+- Gerenciamento de lista de compras
+- Atualização automática de quantidades
+- Organização e busca de itens
 
 ---
 
@@ -27,25 +33,52 @@ Criar uma solução simples para auxiliar famílias na organização da despensa
 
 ---
 
-# Tecnologias Utilizadas
+# Regras de Negócio
 
-- Pascal
+- Se a quantidade do produto for maior que zero, ele permanece no estoque
+  
+- Se a quantidade for igual a zero, o produto é movido automaticamente para a lista de compras
+
+- Alterações na quantidade podem realocar automaticamente o produto entre as listas
+
+- Produtos são identificados por ID único
 
 ---
 
-# Conceitos Aplicados
+# Arquitetura do Sistema
 
-- Lógica de Programação
-- Estruturas de Dados
-- Vetores (Arrays)
-- Registros (Records)
-- Functions
-- Procedures
-- Modularização
-- CRUD
-- Busca Linear
-- Manipulação de vetores
-- Organização de menus
+## Escopo do sistema
+- Foco em funcionalidades essenciais (MVP)
+- Exclusão de recursos complexos como login ou banco de dados
+
+## Requisitos analisados
+- Requisitos funcionais (RF)
+- Regras de negócio (RN)
+- Validação de entradas (RV)
+
+---
+
+# Implementação 
+
+## Linguagem: Pascal
+
+## Estruturas de Dados:
+- Vetores (arrays)
+- Records (modelagem de produtos)
+
+## Lógica de Programação:
+- Modularização com procedures e functions
+- Passagem de parâmetros
+- Busca linear
+- Manipulação e reorganização de vetores
+- Controle de loops estruturados
+
+---
+
+# Arquitetura de Código 
+
+- Separação lógica por funções e procedimentos
+- Menu principal baseado em repetição (loop)
 
 ---
 
@@ -65,14 +98,33 @@ Esse fluxo automatiza o gerenciamento dos produtos e reduz a necessidade de movi
 
 ---
 
-# Principais Características
+# Estratégia de Desenvolvimento
 
-- Sistema totalmente desenvolvido em Pascal.
-- Organização do código em funções e procedimentos.
-- Utilização de IDs únicos para identificação dos produtos.
-- Controle automático entre estoque e lista de compras.
-- Estrutura baseada em registros e vetores.
-- Interface em linha de comando (CLI).
+Devido à limitação de edição simultânea em Pascal, a equipe utilizou um quadro colaborativo (whiteboard) para:
+
+- Planejamento da arquitetura do sistema
+- Definição dos módulos
+- Organização do fluxo de dados
+- Alinhamento das funcionalidades antes da implementação
+
+Isso reduziu conflitos de código e melhorou a clareza do desenvolvimento em equipe.
+
+---
+
+# Fluxo do Sistema
+
+O sistema inicia e exibe o menu principal
+
+O usuário escolhe uma opção:
+- Cadastrar produto
+- Listar estoque
+- Listar lista de compras
+- Buscar produto
+- Atualizar ou remover produto
+
+O sistema executa a ação correspondente
+
+O menu é exibido novamente até a opção de saída
 
 ---
 

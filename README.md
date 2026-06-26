@@ -118,7 +118,7 @@ Projeto desenvolvido em equipe como atividade acadêmica e durante o planejament
 
 # Status
 
-Concluido
+Concluído
 
 **Versão:** v1.0.0
 
